@@ -44,7 +44,7 @@ In this use case, we are sending our traces to Splunk Enterprise. Of course we c
 
 - Ensure that the Zipkin docker instance is stopped (if required). 
 
-- Configure and exporter destination and pipeline. In this example i am sending the traces to Splunk.
+- Configure and exporter destination and pipeline inside the **`collector.yaml`** file. In this example i am sending the traces to Splunk. 
 
 Exporter
 ```yaml
