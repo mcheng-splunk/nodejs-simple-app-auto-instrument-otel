@@ -1,0 +1,28 @@
+{
+  "name": "@opentelemetry/getting-started-example",
+  "version": "0.20.0",
+  "description": "This repository provides everything required to follow the OpenTelemetry Getting Started Guide",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "OpenTelemetry Authors",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@opentelemetry/api": "^0.20.0",
+    "@opentelemetry/api-metrics": "^0.20.0",
+    "@opentelemetry/core": "^0.20.0",
+    "@opentelemetry/exporter-jaeger": "^0.20.0",
+    "@opentelemetry/exporter-zipkin": "^0.20.0",
+    "@opentelemetry/instrumentation": "^0.20.0",
+    "@opentelemetry/instrumentation-express": "^0.16.0",
+    "@opentelemetry/instrumentation-grpc": "^0.20.0",
+    "@opentelemetry/instrumentation-http": "^0.20.0",
+    "@opentelemetry/node": "^0.20.0",
+    "@opentelemetry/resources": "^0.20.0",
+    "@opentelemetry/tracing": "^0.20.0",
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "signalfx-tracing": "^0.12.0"
+  }
+}
